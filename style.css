@@ -78,9 +78,13 @@ body {
     cursor: pointer;
 }
 
-.button-container .equals {
+.button-container #equals {
     width: 135px;
     background-color: rgb(0, 162, 255);
+}
+
+.button-container #equals:active {
+    background-color: rgb(0, 150, 255);
 }
 
 .button-container #clear {
