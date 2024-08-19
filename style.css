@@ -87,10 +87,18 @@ body {
     background-color: rgb(0, 150, 255);
 }
 
-.button-container #clear {
+.button-container #allclear {
     background-color: red;
 }
 
-.button-container #clear:active {
+.button-container #allclear:active {
     background-color:rgb(236, 32, 32);
+}
+
+.button-container #clear-element {
+    background-color: rgb(188, 91, 107);
+}
+
+.button-container #clear-element:active {
+    background-color: rgb(180, 91, 107);
 }
